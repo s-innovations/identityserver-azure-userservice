@@ -13,3 +13,7 @@ The cons are that one needs to implement all the logic/abstraction on top of the
 
 ## Reason for not just using B2C tenants
 I prefer the configuration options and full openidconnect spec being available from identity server.
+
+One can edit the user information of the user that was created in the unit test by navigating to
+[login.microsoftonline.com/car2cloudb2c.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_car2cloud-b2c-profile&client_Id=7230cf4a-fb8d-4a01-b6e4-cdbb76a3995b&nonce=defaultNonce&redirect_uri=http%3A%2F%2Flocalhost%3A11809%2F&scope=openid&response_type=id_token&prompt=login](login.microsoftonline.com/car2cloudb2c.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_car2cloud-b2c-profile&client_Id=7230cf4a-fb8d-4a01-b6e4-cdbb76a3995b&nonce=defaultNonce&redirect_uri=http%3A%2F%2Flocalhost%3A11809%2F&scope=openid&response_type=id_token&prompt=login)
+and signing in with `myUserName` and `P@ssword!`
